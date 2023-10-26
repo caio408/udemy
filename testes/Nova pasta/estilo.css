@@ -1,0 +1,136 @@
+body{
+  font-family: trebuchet MS, Helvetica, sans-serif;
+  background: #f2f2f2;
+}
+
+/* .title{
+  padding: 0 2em;
+  margin: 0;
+  line-height: 100px;
+} */
+
+#container{
+  width: 720px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+#marca{
+  height: 100px;
+  background: #9e9e9e;
+  text-align: center;
+  line-height: 100px;
+  display: absolute;
+  justify-content: center;
+  align-items: center ;
+  
+}
+
+ul#navegacao-horizontal{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background:  #159cb0 url(imagens/fundo-horizontal.png) repeat-x;
+  display: flex;
+  /* float: left; */
+  justify-content: center;
+  align-items:flex-end;  
+}
+
+ul#navegacao-horizontal a{
+  display: block;
+  padding: 0 2em;
+  line-height: 2.2em;
+  text-decoration: none;
+  color: #fff;
+  background: url(imagens/divisor.png) repeat-y;
+}
+
+ul#navegacao-horizontal .primeiro a{
+background: none;
+}
+
+ul#navegacao-horizontal a:hover{
+  color: #085662;
+  background: #44cade;
+}
+
+#conteudo{
+  width: 500px;
+  float: right;
+}
+
+#conteudo-principal{
+  width: 310px;
+  float: left;
+}
+
+#conteudo-secundario{
+  width: 180px;
+  float: right;
+  background: #d1d1d1;  
+}
+
+#conteudo-secundario h1,
+#conteudo-secundario h2,
+#conteudo-secundario h3,
+#conteudo-secundario p{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#navegacao{
+  width: 200px;
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #f7b600;
+}
+
+#rodape{
+  clear: both;
+  background: #c4c4c4;
+  padding: 5px;
+}
+
+#navegacao ul{
+  list-style: none;
+}
+
+#navegacao li a{
+  text-decoration: none;
+}
+
+/* Menu vertical */
+
+ul#navegacao-vertical{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul#navegacao-vertical a{
+  width: 200px;
+  display: block;
+  color: #000;
+  text-decoration: none;
+  text-indent: 40px;
+  line-height: 40px;
+  background: #f7b600 url(imagens/menu.png) no-repeat left bottom;
+}
+
+ul#navegacao-vertical a:hover {
+  background-position: right bottom;
+  color: #fff;
+  background-color: #f99200;}
+
+
+#home #navegacao-vertical .home a,
+#sobre #navegacao-vertical .sobre a,
+#servicos #navegacao-vertical .servicos a,
+#noticias #navegacao-vertical .noticias a,
+#contato #navegacao-vertical .contato a{
+  background-position: right bottom;
+  color: #fff;
+  background-color: #f99200;
+}

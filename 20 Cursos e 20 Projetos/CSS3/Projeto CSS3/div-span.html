@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      #topo {
+        background: blue;
+        display: flex;
+        justify-content: space-between;
+        /* justify-items: ;
+        justify-self: ;  */
+        align-items: center;
+      }
+      #conteudo {
+        background: red;
+        display: flex;
+      }
+
+      #rodape {
+        background: green;
+      }
+
+      .produto {
+        display: flex;
+        flex-direction: column;
+        background: white;
+        margin: 10px;
+        width: 100px;
+      }
+
+      .produto > img {
+        width: 50px;
+        height: auto;
+      }
+      .azul {
+        color: blue;
+      }
+
+      .nav {
+        display: flex;
+      }
+
+      .nav > a {
+        color: black;
+      }
+      .form {
+        margin-right: 10px;
+      }
+      .rodape1 {
+        display: flex;
+        justify-content: space-evenly;
+        border-style: solid;
+        border-width: 10px;
+        border-color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="topo">
+      <img class="logo" src="imagens/amazon.png" width="200" />
+
+      <div class="nav">
+        <form class="form" align="center" action="">
+          <input type="text" />
+          <input type="button" value="pesquisar" />
+        </form>
+        <a href="">Home </a>| <a href=""> Produtos </a>|
+        <a href=""> Contato </a>| <a href=""> Contato </a>|
+      </div>
+    </div>
+    <div class="rodape1">
+      <span>Todos</span>
+      <span>Venda na amazon</span>
+      <span>Eletronicos</span>
+      <span>Ideias de presentes</span>
+    </div>
+    <div id="conteudo">
+      <div class="produto">
+        <img
+          src="https://images.tcdn.com.br/img/img_prod/1146605/fone_de_ouvido_bluetooth_over_ear_com_radio_fon_8688_preto_1573_1_aa13f63e616e1ebcd8edafc486000896.jpg"
+          alt=""
+        />
+        <span> fone bluetooth </span>
+      </div>
+      <div class="produto">
+        <img
+          src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/peripherals/alienware/peripherals/alienware-320m-mouse/assets/mouse-alienware-aw320m-black-gallery-5.psd?fmt=pjpg&pscan=auto&scl=1&wid=2159&hei=1540&qlt=100,1&resMode=sharp2&size=2159,1540&chrss=full&imwidth=5000"
+          alt=""
+        />
+        <span> mouse gamer </span>
+      </div>
+
+      <div class="produto">
+        <img
+          src="https://images.tcdn.com.br/img/img_prod/171693/180_teclado_gamer_gaming_master_k_mex_km_5228_rgb_8345_2_4af2385c49c3a972653916772a25f93e.jpg"
+          alt=""
+        />
+        <span> Teclado </span>
+      </div>
+    </div>
+    <div></div>
+    <div id="rodape">
+      Todos os <span class="azul"> direitos</span> Reservados
+    </div>
+  </body>
+</html>
